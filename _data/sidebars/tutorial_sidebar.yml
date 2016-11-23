@@ -1,0 +1,72 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Component Tutorial
+  product: Component Tutorial
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: How to make a component
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /tutorial_introduction.html
+      output: web
+
+    - title: Boilerplate and Setup
+      url: /tutorial_boilerplate.html
+      output: web
+
+    - title: Custom Styles and Images
+      url: /tutorial_styles.html
+      output: web
+
+    - title: Dependencies
+      url: /tutorial_dependencies.html
+      output: web
+
+    - title: Demo Dependencies
+      url: /tutorial_demo-dependencies.html
+      output: web
+
+    - title: Mounting to the DOM
+      url: /tutorial_mounting-to-the-dom.html
+      output: web
+
+    - title: Defining Options
+      url: /tutorial_options.html
+      output: web
+
+    - title: Events
+      url: /tutorial_event.html
+      output: web
+
+    - title: Mixins
+      url: /tutorial_mixins.html
+      output: web
+
+    - title: Templates
+      url: /tutorial_templates.html
+      output: web
+
+    - title: Debugging
+      url: /tutorial_debugging.html
+      output: web
+
+    - title: Testing
+      url: /tutorial_testing.html
+      output: web

@@ -1,0 +1,26 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+# - title: Topnav
+#   items:
+#     - title: News
+#       url: /news
+
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Libraries &amp; Components
+      folderitems:
+        - title: Libraries
+          url: /libraries_index.html
+        - title: Components
+          url: /components_index.html
+
+    - title: Tutorials
+      folderitems:
+        - title: How to make a component
+          url: /tutorial_introduction.html
+        - title: How to update these docs
+          external_url: http://idratherbewriting.com/documentation-theme-jekyll/

@@ -1,0 +1,61 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Components
+  product: Components
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Component List
+    output: web
+    url:
+    folderitems:
+
+    - title: Overview
+      url: /components_index.html
+      output: web
+
+    - title: base-component
+      url: /components_base-component.html
+      output: web
+
+    - title: component-boilerplate
+      url: /components_component-boilerplate.html
+      output: web
+
+    - title: component-boilerplate-redux
+      url: /components_component-boilerplate-redux.html
+      output: web
+
+    - title: iiif-explorer-component
+      url: /components_iiif-explorer-component.html
+      output: web
+
+    - title: iiif-gallery-component
+      url: /components_iiif-gallery-component.html
+      output: web
+
+    - title: iiif-metadata-component
+      url: /components_iiif-metadata-component.html
+      output: web
+
+    - title: iiif-tree-component
+      url: /components_iiif-tree-component.html
+      output: web
+
+    - title: svg-draw-component
+      url: /components_svg-draw-component.html
+      output: web
