@@ -2,7 +2,7 @@
 
 entries:
 - title: Components
-  product: Components
+  product: 
   version:
   folders:
 
@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Component List
+  - title: Components
     output: web
     url:
     folderitems:

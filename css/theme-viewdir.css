@@ -13,21 +13,27 @@ h4 {color: #808080; }
     color: white;
 }
 
-.nav > li.active > a {
-    background-color: #000500;
+.nav > li > a:hover {
+    background-color: #FFFFFF;
 }
 
-.nav > li > a:hover {
-    background-color: #000500;
+.nav a:hover, .nav li.active > a {
+    border-left: 1px solid #E86343;
+    background-color: #FFFFFF;
+    color: #E86343;
+}
+
+.nav > ul:first-child .active {
+    color: #E86343;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #000500;
+    background-color: #FFFFFF;
 }
 
 .nav li.thirdlevel > a {
     background-color: #FAFAFA !important;
-    color: #000500;
+    color: #FFFFFF;
     font-weight: bold;
 }
 
@@ -38,7 +44,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #000500;
+    background-color: #FFFFFF;
     border-color: #1CF89E;
 }
 
@@ -51,9 +57,83 @@ a[data-toggle="tooltip"] {
     color: #ffffff;
 }
 
+.navbar-inverse .navbar-brand {
+    color: #000500;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #000500;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #000500;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #000500;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #E86343;
+    background-color: transparent;
+
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #fff;
+    color: #E86343;
+}
+
+.nav li > a > span {
+    color: #FFFFFF;
+}
+
+.nav > li li:hover {
+    margin: 2px 0;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000500;
+}
+
+.nav ul li a {
+    border: 1px solid #FFFFFF;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.nav li a:hover {
+    background-color: #FFFFFF;
+}
+
+.dropdown-menu {
+     border: 0px solid #cccccc;
+     border: 0px solid rgba(0, 0, 0, 0.15);
+     border-radius: 0px;
+     -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.175);
+     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    border-radius: 0px;
+    border-color: #FFFFFF;
+}
+
+
+div.navbar-collapse .dropdown-menu > li > a:hover {
+    color: #8D8D8D;
+}
+
+div#toc ul {
+    background-color: beige;
+}
+
+
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #000500 !important;
+    border-color: #FFFFFF !important;
 }
 
 .btn-primary {
@@ -67,7 +147,7 @@ a[data-toggle="tooltip"] {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #000500;
+    background-color: #FFFFFF;
     border-color: #1CF89E;
 }
 

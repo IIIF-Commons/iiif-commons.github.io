@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: Documentation
+  product: 
   version:
   folders:
 
@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: ViewDir
+  - title:  Documentation
     output: web, pdf
     folderitems:
 
