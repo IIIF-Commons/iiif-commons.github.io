@@ -1,0 +1,3 @@
+![Image of ViewDir Logo](https://avatars2.githubusercontent.com/u/20472648?v=3&s=300)
+# About ViewDir
+ViewDir is a open community of designers and developers interested in creating _composable_ and _interoperable_ interfaces for consuming and creating online content.  ViewDir is related to the [IIIF project](http://iiif.io/), and this book should fulfill at least a few of the [IIIF Software Developers Interest Group goals](http://iiif.io/community/groups/softwaredevs/).  However, UI components can and should be designed to work outside of the IIIF context unless there are necessary dependencies.  Such an approach aims to broaden the developer community, expand the use of the components, and spread awareness of the IIIF project.
