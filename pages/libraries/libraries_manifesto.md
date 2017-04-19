@@ -26,7 +26,7 @@ Possible future features to be added by community:
 
 Manifesto is written in TypeScript which allows static typing. This makes it easy to catch coding errors at compile time and makes the project very resilient to refactors. There is also a well maintained mocha test suite.
 
-[Documentation](http://viewdir.github.io/manifesto-docs/)
+[Documentation](http://viewdir.github.io/manifesto/)
 
 [Tutorial](http://blog.edsilv.com/manifesto/)
 
